@@ -87,10 +87,3 @@ function scrollActive() {
         }
     })
 }
-window.addEventListener('scroll', scrollActive)
-const openLinkedIn = () => {
-    window.location.href = ('www.linkedin.com/in/suchith-bandari-b5458a17a');
-}
-// document.getElementsByClassName("uil uil-linkedin-alt").addEventListener('click', () => {
-//     window.open('www.linkedin.com/in/suchith-bandari-b5458a17a', '_blank');
-// });

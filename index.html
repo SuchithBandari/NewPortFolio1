@@ -39,15 +39,17 @@
                         <a href="#projects" class="nav-link">Projects</a>
                     </li>
                     <li class="nav-list">
-                        <a href="#contact" class="nav-link">Contact</a>
+                        <a href="#Companies" class="nav-link">Companies</a>
                     </li>
                     <li class="nav-list">
-                        <a href="#companirs" class="nav-link">Companies</a>
+                        <a href="#contact" class="nav-link">Contact</a>
                     </li>
                 </ui>
             </div>
             <div class="nav-button">
-                <button class="btn">Download CV <i class="uil uil-file-info-alt"></i></button>
+                <button class="btn"><a class="downloadBtn" href="assets\Dotnet Resume(Suchith) 2Yr Exp.pdf"
+                        target="_blank" download="SuchithBandariResume.pdf">Download CV
+                    </a><i class="uil uil-file-info-alt"></i></button>
             </div>
             <div class="nav-menu-btn">
                 <i class="uil uil-bars" onclick="myMenuFunction()"></i>
@@ -67,18 +69,25 @@
                         <p>I'm <span class="typedText" id="typeAnimation"></span></p>
                     </div>
                     <div class="featured-text-info">
-                        <p>Experienced frontend developer with a passion for creating visually stunning
+                        <p>Experienced Full stack developer with a passion for creating visually stunning
                             and user-friendly websites.
                         </p>
                     </div>
                     <div class="featured-text-btn">
-                        <button class="btn blue-btn">Hire Me</button>
-                        <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
+                        <button class="btn blue-btn" id="btnHireMe">Hire Me</button>
+                        <button class="btn" id="btnDownload"><a class="downloadBtn"
+                                href="assets\Dotnet Resume(Suchith) 2Yr Exp.pdf" target="_blank"
+                                download="SuchithBandariResume.pdf">Download CV
+                            </a><i class="uil uil-file-alt"></i></button>
                     </div>
                     <div class="social_icons">
-                        <div class="icon"><i class="uil uil-instagram"></i></div>
-                        <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
-                        <div class="icon"><i class="uil uil-github-alt"></i></div>
+                        <div class="icon"><a href="https://www.instagram.com/suchithvarma?igsh=em84Z2V2cWd0ZXhk"
+                                target="_blank"><i class="uil uil-instagram"></a></i>
+                        </div>
+                        <div class="icon"> <a href="https://www.linkedin.com/in/suchith-bandari-b5458a17a"
+                                target="_blank"><i class="uil uil-linkedin-alt"></i></a></div>
+                        <div class="icon"><a href="https://github.com/SuchithBandari" target="_blank"><i
+                                    class="uil uil-github-alt"></i></a></div>
                     </div>
                 </div>
                 <div class="featured-image">
@@ -103,10 +112,8 @@
                     <div class="col">
                         <div class="about-info">
                             <h3>My introduction</h3>
-                            <p>I am well-versed in HTML, CSS and JavaScript , and other cutting edge
+                            <p>I am well-versed in HTML, CSS and JavaScript, Angular and Dot Net and other cutting edge
                                 frameworks and libraries,which allows me to implement interactive features.
-                                Additionally, I have experirence working with content management systems (CMS) like
-                                WordPress.
                             </p>
                             <div class="about-btn">
                                 <button class="btn">Download CV <i class="uil uil-import"></i></button>
@@ -123,6 +130,7 @@
                                 <span>CSS</span>
                                 <span>Bootstrap</span>
                                 <span>JavaScript</span>
+                                <span>JQuery</span>
                                 <span>React</span>
                                 <span>Angular</span>
                             </div>
@@ -132,10 +140,25 @@
                                 <h3>Backend</h3>
                             </div>
                             <div class="skills-list">
-                                <span>PHP</span>
-                                <span>JAVA</span>
-                                <span>Python</span>
-                                <span>C++</span>
+                                <span>C#</span>
+                                <span>C</span>
+                                <!-- <span>Python</span>
+                                <span>C++</span> -->
+                            </div>
+                        </div>
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>FrameWork</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>ASP.Net</span>
+                                <span>Ado.Net</span>
+                                <span>Asp.Net MVC</span>
+                                <span>Dot net core</span>
+                                <span>Dot net Core Api</span>
+                                <span>Entity framework Core</span>
+                                <!-- <span>Python</span>
+                                <span>C++</span> -->
                             </div>
                         </div>
                         <div class="skills-box">
@@ -144,7 +167,7 @@
                             </div>
                             <div class="skills-list">
                                 <span>MySQL</span>
-                                <span>PostgreSQL</span>
+                                <span>SqlServer</span>
                                 <span>MongoDB</span>
                             </div>
                         </div>
@@ -160,20 +183,54 @@
                     <div class="project-box">
                         <i class="uil uil-briefcase-alt"></i>
                         <h3>Completed</h3>
-                        <label>15+ Finished Projects</label>
-                    </div>
-                    <div class="project-box">
-                        <i class="uil uil-users-alt"></i>
-                        <h3>Clients</h3>
-                        <label>25+ Happy Clients</label>
+                        <label>5+ Finished Projects in different Companies</label>
                     </div>
                     <div class="project-box">
                         <i class="uil uil-award"></i>
                         <h3>Experience</h3>
-                        <label>7+ Years in the field</label>
+                        <label>3+ Years in the field</label>
+                    </div>
+                    <!-- <div class="project-box">
+                        <i class="uil uil-users-alt"></i>
+                        <h3>Clients</h3>
+                        <label>25+ Happy Clients</label>
+                    </div> -->
+
+                </div>
+            </section>
+
+            <!------Companies---------->
+            <section class="section" id="Companies">
+                <div class="top-header">
+                    <h1>Companies</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <h3>K P M G</h3>
+                            <p>Hello there !, Here I was worked as software developer with the <b>Dot net</b> tech stack
+                                for 1.2 years
+                            </p>
+                            <div class="about-btn">
+                                <button class="btn">K P M G</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="about-info">
+                            <h3>W F X</h3>
+                            <p>Hello there !, Here I'm working as software developer with the <b>Dot net</b>
+                                and <b>Angular</b> tech stack
+                                since Dec 2022
+                            </p>
+                            <div class="about-btn">
+                                <button class="btn">W F X</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
+
             <!-- -------------- CONTACT BOX ---------------- -->
             <section class="section" id="contact">
                 <div class="top-header">
@@ -228,9 +285,15 @@
                 </ul>
             </div>
             <div class="footer-social-icons">
-                <div class="icon" onclick="openLinkedIn()"><i class="uil uil-instagram"></i></div>
-                <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
-                <div class="icon"><i class="uil uil-github-alt"></i></div>
+                <div class="social_icons">
+                    <div class="icon"><a href="https://www.instagram.com/suchithvarma?igsh=em84Z2V2cWd0ZXhk"
+                            target="_blank"><i class="uil uil-instagram"></a></i>
+                    </div>
+                    <div class="icon"> <a href="https://www.linkedin.com/in/suchith-bandari-b5458a17a"
+                            target="_blank"><i class="uil uil-linkedin-alt"></i></a></div>
+                    <div class="icon"><a href="https://github.com/SuchithBandari" target="_blank"><i
+                                class="uil uil-github-alt"></i></a></div>
+                </div>
             </div>
             <div class="bottom-footer">
                 <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Suchith Bandari</a> - All rights
